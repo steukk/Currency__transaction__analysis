@@ -1,0 +1,20 @@
+field,description
+deal_id,Synthetic unique identifier of the OTC FX Spot deal
+client_id,Synthetic corporate client identifier
+client_segment,Client segment used for SLA and notional distribution
+product_type,"FX product type, restricted to FX Spot in v1"
+currency_pair,Currency pair derived from Kaggle market rates
+buy_sell,Client direction from the bank perspective
+notional,Deal amount in base currency
+exchange_rate,Market exchange rate from Kaggle dataset
+market_rate_date,Date of the market rate observation
+request_channel,Client request channel
+*_time,Synthetic process timestamp
+deal_status,Final synthetic processing status
+manual_processing_flag,Whether the deal required manual processing
+manual_steps_count,Synthetic count of manual actions
+rework_count,Synthetic number of returns to correction
+exception_type,Synthetic operational exception category
+rejection_reason,Reason for rejected deals
+sla_minutes,Target SLA threshold in minutes
+sla_breach,Whether total processing time exceeded SLA
