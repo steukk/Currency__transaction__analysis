@@ -1,0 +1,14 @@
+metric,value
+deal_count,10000.0
+avg_total_minutes,136.36842166666668
+median_total_minutes,118.14166666666668
+sla_met_rate,0.867
+sla_breach_rate,0.133
+stp_rate,0.4953
+manual_processing_rate,0.5047
+avg_rework_count,0.3148
+registration_error_rate,0.0503
+settlement_issue_rate,0.0347
+avg_manual_steps,3.3279
+avg_processing_cost_usd,44.2896
+first_pass_yield,0.6931
